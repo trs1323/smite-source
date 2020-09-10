@@ -1,0 +1,1274 @@
+[
+    {
+        "Name": "Arachne",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Arachne.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    16592,
+                    19003,
+                    12673,
+                    7593,
+                    14849,
+                    14850
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    12671,
+                    18200,
+                    7621
+                ],
+                "Explanation": "You will be starting with no potions. Drop 3 webs on blue buff before the game starts. Clear speed with your mid using NO spiders. Run directly to mid lane, blink on the mid laner, try to kill DO not dive the tower, go directly to their red buff. Steal red, mids, and then do your own buffs."
+            }
+        }
+    },
+    {
+        "Name": "Awilix",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Awilix.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    8550,
+                    17356,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalanta's Bow, Mantle of Discord, OR Bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
+            }
+        }
+    },
+    {
+        "Name": "Bakasura",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bakasura.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    16592,
+                    9627,
+                    14850,
+                    7593,
+                    12673,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    12671,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalanta's Bow"
+            }
+        }
+    },
+    {
+        "Name": "Bastet",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bastet.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    7904,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7922,
+                    18200,
+                    7621,
+                    7621
+                ],
+                "Explanation": "Sell boots for Bloodforge or Mantle of Discord"
+            }
+        }
+    },
+    {
+        "Name": "Camazotz",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Camazotz.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    8550,
+                    17356,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
+            }
+        }
+    },
+    {
+        "Name": "Da Ji",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Daji.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
+            }
+        }
+    },
+    {
+        "Name": "Fenrir",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Fenrir.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    7904,
+                    9361,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
+            }
+        }
+    },
+    {
+        "Name": "Hun Batz",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hunbatz.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    7904,
+                    8550,
+                    17356,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
+            }
+        }
+    },
+    {
+        "Name": "Kali",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Kali.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    14850,
+                    7593,
+                    14849,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    9833,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Ichaival"
+            }
+        }
+    },
+    {
+        "Name": "Loki",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Loki.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for  Bloodforge, or Mantle of Discord"
+            }
+        }
+    },
+    {
+        "Name": "Mercury",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Mercury.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    16592,
+                    9627,
+                    12673,
+                    8546,
+                    7545,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15486,
+                    12671,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for atalantas bow, bloodforge or asi(your pref), or get defense. Atalantas is nuts."
+            }
+        }
+    },
+    {
+        "Name": "Ne Zha",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nezha.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
+            },
+            "1": {
+                "Type": "Support",
+                "Title": "Support / Hybrid",
+                "Final-Items": [
+                    9626,
+                    12665,
+                    9112,
+                    13187,
+                    12666,
+                    7935
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    9624,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Max out on health/multi pots. Sell boots for winged blade or shoguns "
+            }
+        }
+    },
+    {
+        "Name": "Nemesis",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Nemesis.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    16592,
+                    14850,
+                    12673,
+                    19003,
+                    14849,
+                    7593
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    12671,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Buy movement speed pot after Qins"
+            }
+        }
+    },
+    {
+        "Name": "Pele",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/08/Smite-Web-NewGod-Pele-Header-2560x917-1.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    7539,
+                    8550,
+                    12680,
+                    7593
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for mantle of discord or bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
+            }
+        }
+    },
+    {
+        "Name": "Ratatoskr",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ratatoskr.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle Ability build(Mid Season patch)",
+                "Final-Items": [
+                    18707,
+                    11111,
+                    7539,
+                    17356,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "DO NOT sell acorn. You will keep it all game."
+            },
+            "1": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle Crit build(Mid Season patch)",
+                "Final-Items": [
+                    18706,
+                    8546,
+                    7545,
+                    7539,
+                    8550,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    18705,
+                    18200
+                ],
+                "Explanation": "Start with rank 2 crit acorn. Finish full crit  acorn as soon as you can.The combo is to 1 auto, 3 auto, 2 auto OR blink 2, auto, 3 auto, 1 auto. "
+            },
+            "2": {
+                "Type": "Support",
+                "Title": "Season 7 Support build(Mid Season patch)",
+                "Final-Items": [
+                    18709,
+                    12677,
+                    12665,
+                    13187,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    14056,
+                    9120
+                ],
+                "Starter": [
+                    15473,
+                    7621,
+                    7621,
+                    7621,
+                    7621,
+                    18200
+                ],
+                "Explanation": "DO NOT sell acorn. You will keep it all game. You can swap out one of robes for a void shield or even a heartseeker if you are carrying from Support "
+            }
+        }
+    },
+    {
+        "Name": "Ravana",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ravana.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    12677,
+                    11111,
+                    17356,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    9830,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for mantle of discord or atalantas bow. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind. "
+            }
+        }
+    },
+    {
+        "Name": "Serqet",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Serqet.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Hybrid Jungle build",
+                "Final-Items": [
+                    9626,
+                    14096,
+                    9836,
+                    13187,
+                    17355,
+                    7523
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    9830,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for brawlers beatstick or shifter shield."
+            },
+            "1": {
+                "Type": "Jungle",
+                "Title": "Season 7 Damage Build",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    7904,
+                    17356,
+                    12680,
+                    7523
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for mantle of discord or bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
+            },
+            "2": {
+                "Type": "Support",
+                "Title": "Support / Hybrid",
+                "Final-Items": [
+                    9626,
+                    12665,
+                    13187,
+                    17355,
+                    7935,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    9624,
+                    7621,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Max out on health/multi pots. Sell boots for anti heal, shoguns, or emporer's armor for pushing/defending"
+            }
+        }
+    },
+    {
+        "Name": "Set",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Set.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    7904,
+                    8550,
+                    7539,
+                    12680,
+                    14849
+                ],
+                "Relics": [
+                    8879,
+                    9120
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for bloodforge or mantle of discord"
+            },
+            "1": {
+                "Type": "Solo",
+                "Title": "Season 7 Solo build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle. Get magic defense early if against magical solo"
+            }
+        }
+    },
+    {
+        "Name": "Susano",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Susano.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
+            }
+        }
+    },
+    {
+        "Name": "Thanatos",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thanatos.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
+            }
+        }
+    },
+    {
+        "Name": "Thor",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thor.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    8550,
+                    12680,
+                    19003
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
+            },
+            "1": {
+                "Type": "Solo",
+                "Title": "Season 7 Solo build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        }
+    },
+    {
+        "Name": "Tsukuyomi",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thor.jpg",
+        "Class": "Assassin",
+        "Builds": {
+            "0": {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build(Mid Season patch)",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    7539,
+                    8550,
+                    17356,
+                    12680
+                ],
+                "Relics": [
+                    14146,
+                    7672
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for Serrated Blade. You DO NOT need blink on this god, his kit allows him to get into fights fairly easily and having an Aegis to stay alive after you ultimate will go a lot further then blink."
+            }
+        }
+    },
+    {
+        "Name": "Ares",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ares.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Artio",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Artio.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Athena",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Athena.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Bacchus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bacchus.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Cabrakan",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cabrakan.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Cerberus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cerberus.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Cthulhu",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cthulhu.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Fafnir",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Fafnir.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Ganesha",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ganesha.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Geb",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Geb.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Jormungandr",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Jormungandr.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Khepri",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Khepri.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Kumbhakarna",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Kumbhakarna.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Kuzenbo",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Kuzenbo.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Sobek",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Sobek.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Sylvanus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Sylvanus.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Terra",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Terra.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Xing Tian",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/XingTian-1.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Yemoja",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Yemoja.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Ymir",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ymir.jpg",
+        "Class": "Guardian"
+    },
+    {
+        "Name": "Ah Muzen Cab",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/AhMuzenCab.jpg"
+    },
+    {
+        "Name": "Anhur",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Anhur.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Apollo",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Apollo.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Artemis",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Artemis.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Cernunnos",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cernunnos.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Chernobog",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chernobog.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Chiron",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chiron.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Cupid",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cupid.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Hachiman",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Hachiman.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Heimdallr",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Heimdallr.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Hou Yi",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/HouYi.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Izanami",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Izanami.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Jing Wei",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/JingWei.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Medusa",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Medusa.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Neith",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Neith.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Rama",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Rama.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Skadi",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Skadi.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Ullr",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ullr.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Xbalanque",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Xbalanque.jpg",
+        "Class": "Hunter"
+    },
+    {
+        "Name": "Agni",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Agni.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Ah Puch",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/AhPuch.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Anubis",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Anubis.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Ao Kuang",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/AoKuang.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Aphrodite",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Aphrodite.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Baba Yaga",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/BabaYaga.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Baron Samedi",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/BaronSamedi.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Chang'e",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Change.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Chronos",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Chronos.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Discordia",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Discordia.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Freya",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Freya.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Hades",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hades.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "He Bo",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/HeBo.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Hel",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hel.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Hera",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hera.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Isis",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Isis.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Janus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Janus.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Kukulkan",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Kukulkan.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Merlin",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Merlin.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Nox",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nox.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Nu Wa",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/NuWa.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Olorun",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Olorun.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Persephone",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Persephone.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Poseidon",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Poseidon.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Ra",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ra.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Raijin",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Raijin.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Scylla",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Scylla.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Sol",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Sol.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "The Morrigan",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/TheMorrigan.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Thoth",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Thoth.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Vulcan",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Vulcan.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Zeus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Zeus.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Zhong Kui",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/ZhongKui.jpg",
+        "Class": "Mage"
+    },
+    {
+        "Name": "Achilles",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Achilles.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Amaterasu",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Amaterasu.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Bellona",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Bellona.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Chaac",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Chaac.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Cu Chulainn",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/CuChulainn.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Erlang Shen",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/ErlangShen.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Guan Yu",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/GuanYu.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Hercules",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hercules.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Horus",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Horus.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "King Arthur",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/KingArthur.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Mulan",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Mulan.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Nike",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nike.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Odin",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Odin.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Osiris",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Osiris.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Sun Wukong",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/SunWukong.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Tyr",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Tyr.jpg",
+        "Class": "Warrior"
+    },
+    {
+        "Name": "Vamana",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Vamana.jpg",
+        "Class": "Warrior"
+    }
+]
