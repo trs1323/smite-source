@@ -3,8 +3,8 @@
         "Name": "Arachne",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Arachne.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -27,14 +27,14 @@
                 ],
                 "Explanation": "You will be starting with no potions. Drop 3 webs on blue buff before the game starts. Clear speed with your mid using NO spiders. Run directly to mid lane, blink on the mid laner, try to kill DO not dive the tower, go directly to their red buff. Steal red, mids, and then do your own buffs."
             }
-        }
+        ]
     },
     {
         "Name": "Awilix",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Awilix.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -57,14 +57,14 @@
                 ],
                 "Explanation": "Sell boots for Atalanta's Bow, Mantle of Discord, OR Bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
             }
-        }
+        ]
     },
     {
         "Name": "Bakasura",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bakasura.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -87,14 +87,14 @@
                 ],
                 "Explanation": "Sell boots for Atalanta's Bow"
             }
-        }
+        ]
     },
     {
         "Name": "Bastet",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bastet.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -118,14 +118,14 @@
                 ],
                 "Explanation": "Sell boots for Bloodforge or Mantle of Discord"
             }
-        }
+        ]
     },
     {
         "Name": "Camazotz",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Camazotz.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -148,14 +148,14 @@
                 ],
                 "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
             }
-        }
+        ]
     },
     {
         "Name": "Da Ji",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Daji.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -178,14 +178,14 @@
                 ],
                 "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
             }
-        }
+        ]
     },
     {
         "Name": "Fenrir",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Fenrir.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -208,14 +208,14 @@
                 ],
                 "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
             }
-        }
+        ]
     },
     {
         "Name": "Hun Batz",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hunbatz.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -238,14 +238,14 @@
                 ],
                 "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
             }
-        }
+        ]
     },
     {
         "Name": "Kali",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Kali.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -268,14 +268,14 @@
                 ],
                 "Explanation": "Sell boots for Ichaival"
             }
-        }
+        ]
     },
     {
         "Name": "Loki",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Loki.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -298,14 +298,14 @@
                 ],
                 "Explanation": "Sell boots for  Bloodforge, or Mantle of Discord"
             }
-        }
+        ]
     },
     {
         "Name": "Mercury",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Mercury.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -328,14 +328,14 @@
                 ],
                 "Explanation": "Sell boots for atalantas bow, bloodforge or asi(your pref), or get defense. Atalantas is nuts."
             }
-        }
+        ]
     },
     {
         "Name": "Ne Zha",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nezha.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -358,7 +358,7 @@
                 ],
                 "Explanation": "Sell boots for Atalantas bow, bloodforge, or Mantle of discord"
             },
-            "1": {
+            {
                 "Type": "Support",
                 "Title": "Support / Hybrid",
                 "Final-Items": [
@@ -383,14 +383,14 @@
                 ],
                 "Explanation": "Max out on health/multi pots. Sell boots for winged blade or shoguns "
             }
-        }
+        ]
     },
     {
         "Name": "Nemesis",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Nemesis.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -413,14 +413,14 @@
                 ],
                 "Explanation": "Buy movement speed pot after Qins"
             }
-        }
+        ]
     },
     {
         "Name": "Pele",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/08/Smite-Web-NewGod-Pele-Header-2560x917-1.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -443,14 +443,14 @@
                 ],
                 "Explanation": "Sell boots for mantle of discord or bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
             }
-        }
+        ]
     },
     {
         "Name": "Ratatoskr",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ratatoskr.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle Ability build(Mid Season patch)",
                 "Final-Items": [
@@ -473,7 +473,7 @@
                 ],
                 "Explanation": "DO NOT sell acorn. You will keep it all game."
             },
-            "1": {
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle Crit build(Mid Season patch)",
                 "Final-Items": [
@@ -495,7 +495,7 @@
                 ],
                 "Explanation": "Start with rank 2 crit acorn. Finish full crit  acorn as soon as you can.The combo is to 1 auto, 3 auto, 2 auto OR blink 2, auto, 3 auto, 1 auto. "
             },
-            "2": {
+            {
                 "Type": "Support",
                 "Title": "Season 7 Support build(Mid Season patch)",
                 "Final-Items": [
@@ -520,14 +520,14 @@
                 ],
                 "Explanation": "DO NOT sell acorn. You will keep it all game. You can swap out one of robes for a void shield or even a heartseeker if you are carrying from Support "
             }
-        }
+        ]
     },
     {
         "Name": "Ravana",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ravana.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -550,14 +550,14 @@
                 ],
                 "Explanation": "Sell boots for mantle of discord or atalantas bow. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind. "
             }
-        }
+        ]
     },
     {
         "Name": "Serqet",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Serqet.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Hybrid Jungle build",
                 "Final-Items": [
@@ -580,7 +580,7 @@
                 ],
                 "Explanation": "Sell boots for brawlers beatstick or shifter shield."
             },
-            "1": {
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Damage Build",
                 "Final-Items": [
@@ -603,7 +603,7 @@
                 ],
                 "Explanation": "Sell boots for mantle of discord or bloodforge. Get brawlers beatstick INSTEAD of crusher if the enemy team has healing of any kind."
             },
-            "2": {
+            {
                 "Type": "Support",
                 "Title": "Support / Hybrid",
                 "Final-Items": [
@@ -627,14 +627,14 @@
                 ],
                 "Explanation": "Max out on health/multi pots. Sell boots for anti heal, shoguns, or emporer's armor for pushing/defending"
             }
-        }
+        ]
     },
     {
         "Name": "Set",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Set.jpg",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/05/Set_Header_2560x917.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -657,7 +657,7 @@
                 ],
                 "Explanation": "Sell boots for bloodforge or mantle of discord"
             },
-            "1": {
+            {
                 "Type": "Solo",
                 "Title": "Season 7 Solo build(Mid Season patch)",
                 "Final-Items": [
@@ -681,14 +681,14 @@
                 ],
                 "Explanation": "Sell boots for mantle. Get magic defense early if against magical solo"
             }
-        }
+        ]
     },
     {
         "Name": "Susano",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Susano.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -711,14 +711,14 @@
                 ],
                 "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
             }
-        }
+        ]
     },
     {
         "Name": "Thanatos",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thanatos.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -741,14 +741,14 @@
                 ],
                 "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
             }
-        }
+        ]
     },
     {
         "Name": "Thor",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thor.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -771,7 +771,7 @@
                 ],
                 "Explanation": "Sell boots for Mantle of Discord or Bloodforge."
             },
-            "1": {
+            {
                 "Type": "Solo",
                 "Title": "Season 7 Solo build(Mid Season patch)",
                 "Final-Items": [
@@ -795,14 +795,14 @@
                 ],
                 "Explanation": "Sell boots for mantle of discord"
             }
-        }
+        ]
     },
     {
         "Name": "Tsukuyomi",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thor.jpg",
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2020/08/Tsukuyomi_Header_2560x917.jpg",
         "Class": "Assassin",
-        "Builds": {
-            "0": {
+        "Builds": [
+            {
                 "Type": "Jungle",
                 "Title": "Season 7 Jungle build(Mid Season patch)",
                 "Final-Items": [
@@ -825,450 +825,4411 @@
                 ],
                 "Explanation": "Sell boots for Serrated Blade. You DO NOT need blink on this god, his kit allows him to get into fights fairly easily and having an Aegis to stay alive after you ultimate will go a lot further then blink."
             }
-        }
+        ]
     },
     {
         "Name": "Ares",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ares.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    7791,
+                    7641,
+                    18180,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    14071,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for void shard or more defense"
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Hybrid Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    12665,
+                    13187,
+                    18180,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Aggressive high damage support build that allows your teammates to do more damage, but you will die faster. Sell boots for Spirit robe"
+            }
+        ]
     },
     {
         "Name": "Artio",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Artio.jpg",
-        "Class": "Guardian"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/artio-header-1.jpg",
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support build",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    7528,
+                    13187,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "If it is heavy magic damage on the enemy team swap out sovereignty for heartward. If the enemy team has healing make sure to get anti heal over relic dagger or spirit robe depending on how much healing they have get it earlier. "
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Hybrid Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    12665,
+                    13187,
+                    8599,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Hybrid will be used for your aggressive guardians, specially when you want to be doing more in the early and mid game in terms of damage. Sell boots for spirit robe and make sure if anti heal is needed you get it over relic dagger or ethereal staff."
+            }
+        ]
     },
     {
         "Name": "Athena",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Athena.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    9120
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    7791,
+                    7641,
+                    9128,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    14071,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for void shard or more defense "
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Hybrid Jungle",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    7791,
+                    8599,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    14071,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for soul reaver. Also can grab more damage if you want to snowball more just drop spirit robe for spear of desolation/ob shard"
+            }
+        ]
     },
     {
         "Name": "Bacchus",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bacchus.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Cabrakan",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cabrakan.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Hybrid Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    12665,
+                    13187,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Soul Reaver"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Damage",
+                "Final-Items": [
+                    9634,
+                    12670,
+                    8599,
+                    7597,
+                    9128,
+                    7525
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    9849,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for Rod of Tahuti"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Hybrid Jungle",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    7791,
+                    8599,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    14071,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for Staff of Myrddin"
+            }
+        ]
     },
     {
         "Name": "Cerberus",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cerberus.jpg",
-        "Class": "Guardian"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/01/cerberus-header.jpg",
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Cthulhu",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cthulhu.jpg",
-        "Class": "Guardian"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2020/06/Cthulu_Header_2560x917.jpg",
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    7572,
+                    7641,
+                    7791,
+                    8599,
+                    12679
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    9631,
+                    7621,
+                    7621,
+                    7621,
+                    7621
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    12665,
+                    13187,
+                    7791,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for more defense, if you are stomping go more damage and get an Ethereal Staff. Then sell stone of binding for Soul Reaver"
+            }
+        ]
     },
     {
         "Name": "Fafnir",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Fafnir.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Ganesha",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ganesha.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Geb",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Geb.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Jormungandr",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Jormungandr.jpg",
-        "Class": "Guardian"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/03/Jorm_Header_2560x917_Shadow.jpg",
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            },
+            {
+                "Type": "Solo",
+                "Title": "Hybrid Solo",
+                "Final-Items": [
+                    14179,
+                    9633,
+                    14175,
+                    8599,
+                    12666,
+                    7594
+                ],
+                "Relics": [
+                    9040,
+                    7672
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    7621,
+                    7621,
+                    7621
+                ],
+                "Explanation": "Damage "
+            }
+        ]
     },
     {
         "Name": "Khepri",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Khepri.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    12679,
+                    13187,
+                    17355,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    9631,
+                    7621,
+                    7621,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for shoguns/spirit robe "
+            }
+        ]
     },
     {
         "Name": "Kumbhakarna",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Kumbhakarna.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Kuzenbo",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Kuzenbo.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Sobek",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Sobek.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Sylvanus",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Sylvanus.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12678,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Terra",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Terra.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12678,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Xing Tian",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/XingTian-1.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Yemoja",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Yemoja.jpg",
-        "Class": "Guardian"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/10/Yemoja_Header_2560x917.jpg",
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    11110,
+                    13187,
+                    12679,
+                    9361
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Ymir",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ymir.jpg",
-        "Class": "Guardian"
+        "Class": "Guardian",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    12665,
+                    13187,
+                    12679,
+                    9361,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Shogun's or Ethereal Staff  "
+            }
+        ]
     },
     {
         "Name": "Ah Muzen Cab",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/AhMuzenCab.jpg"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/AhMuzenCab.jpg",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            }
+        ]
     },
     {
         "Name": "Anhur",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Anhur.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            }
+        ]
     },
     {
         "Name": "Apollo",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Apollo.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Artemis",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Artemis.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Cernunnos",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cernunnos.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Chernobog",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chernobog.jpg",
-        "Class": "Hunter"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/05/chernobog-header.jpg",
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Chiron",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chiron.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Cupid",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Cupid.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Hachiman",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Hachiman.jpg",
-        "Class": "Hunter"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/09/hachiman-profile-header.jpg",
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Heimdallr",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Heimdallr.jpg",
-        "Class": "Hunter"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/12/Heimdallr_Header_2560x917.jpg",
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            },
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Ability",
+                "Final-Items": [
+                    8547,
+                    9626,
+                    11111,
+                    7904,
+                    12680,
+                    7523
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8560,
+                    7621,
+                    7621,
+                    7621,
+                    7622,
+                    7622
+                ],
+                "Explanation": "Sell boots for bloodforge or mantle of discord. "
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle",
+                "Final-Items": [
+                    9627,
+                    11111,
+                    7904,
+                    8550,
+                    12680,
+                    7523
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Plays well with self peel. Has extremely high damage with burst and sustain. Sell boots for bloodforge or mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Hou Yi",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/HouYi.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Izanami",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Izanami.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Jing Wei",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/JingWei.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Medusa",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Medusa.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Neith",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Neith.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Rama",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Rama.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Auto Attack W/ AS Steriod(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    16544,
+                    17090,
+                    14849,
+                    7593,
+                    14084
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9833,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival "
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Skadi",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Skadi.jpg",
-        "Class": "Hunter"
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            },
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Ability",
+                "Final-Items": [
+                    8547,
+                    9626,
+                    11111,
+                    7904,
+                    12680,
+                    7523
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8560,
+                    7621,
+                    7621,
+                    7621,
+                    7622,
+                    7622
+                ],
+                "Explanation": "Sell boots for bloodforge or mantle of discord. "
+            }
+        ]
     },
     {
         "Name": "Ullr",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ullr.jpg",
-        "Class": "Hunter"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Ullr.jpg",
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit for Ability Hunters(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    17357
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for deathbringer, Berskers, whatever you need really."
+            },
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Ability(Mid Season Patch)",
+                "Final-Items": [
+                    8547,
+                    9626,
+                    11111,
+                    7904,
+                    12680,
+                    14849
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8560,
+                    7621,
+                    7621,
+                    7621,
+                    7622,
+                    7622
+                ],
+                "Explanation": "Sell boots for bloodforge or mantle of discord. "
+            }
+        ]
     },
     {
         "Name": "Xbalanque",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Xbalanque.jpg",
-        "Class": "Hunter"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/xabalanque-1.jpg",
+        "Class": "Hunter",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Standard Lifesteal/Attack build(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    7593,
+                    14084,
+                    16544
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Ichival"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC Crit Build for Auto Attackers(Mid Season Patch)",
+                "Final-Items": [
+                    7914,
+                    9627,
+                    14849,
+                    8546,
+                    12674,
+                    13427
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9825,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Beserkers Shield, Mantle of dying a lot, or deathbringer for big boy crits"
+            }
+        ]
     },
     {
         "Name": "Agni",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Agni.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Ah Puch",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/AhPuch.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Anubis",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Anubis.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    8551,
+                    9633,
+                    18180,
+                    15579,
+                    9128,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8574,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolationand then sell boots for Rod"
+            }
+        ]
     },
     {
         "Name": "Ao Kuang",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/AoKuang.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/AoKuang.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle(Mid Season Patch)",
+                "Final-Items": [
+                    9632,
+                    18191,
+                    18180,
+                    9351,
+                    15579,
+                    7600
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    9847,
+                    7621,
+                    18200
+                ],
+                "Explanation": "Sell boots for Obsidian shard or if you need anti heal sell boots for Toxic blade"
+            }
+        ]
     },
     {
         "Name": "Aphrodite",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Aphrodite.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Aphrodite.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    7600,
+                    7784
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for Obsidian Shard "
+            }
+        ]
     },
     {
         "Name": "Baba Yaga",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/BabaYaga.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2020/04/BabaYaga_Header_2560x917_Shadow.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    7334,
+                    9634,
+                    18180,
+                    7917,
+                    15582,
+                    9128
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9858,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for chronos pendant"
+            }
+        ]
     },
     {
         "Name": "Baron Samedi",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/BaronSamedi.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/06/BaronSamedi_Default_Card_Promo-2.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Chang'e",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Change.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/ChangE.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Chronos",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Chronos.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chronos.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18191,
+                    18180,
+                    15579,
+                    9351,
+                    8564
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9847,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Hastened Ring"
+            }
+        ]
     },
     {
         "Name": "Discordia",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Discordia.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/11/discordia-header.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Freya",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Freya.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18191,
+                    18180,
+                    14840,
+                    8564,
+                    9351
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9847,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Typhon's Fang"
+            }
+        ]
     },
     {
         "Name": "Hades",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hades.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    8551,
+                    9633,
+                    18180,
+                    15579,
+                    9128,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8574,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for Obsidian shard or mantle of discord if dying quickly. "
+            },
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    8551,
+                    9633,
+                    15579,
+                    18180,
+                    17355,
+                    12666
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8574,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for Ethereal Staff or pur defense like a spirit robe "
+            }
+        ]
     },
     {
         "Name": "He Bo",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/HeBo.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hebo.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    8551,
+                    9634,
+                    18180,
+                    15579,
+                    9128,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    8574,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Get Divine Ruin if they have any healing get divine after Spear of the Magus and then sell boots for Rod. Sell boots for Void Shard if you need pen or get chronos pendant for cooldown/spaming "
+            }
+        ]
     },
     {
         "Name": "Hel",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hel.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Hera",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hera.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/10/hera-header.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Isis",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Isis.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Janus",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Janus.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Kukulkan",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Kukulkan.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    7334,
+                    9634,
+                    18180,
+                    7597,
+                    9128,
+                    18179
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    9859,
+                    7621,
+                    7622,
+                    7622
+                ],
+                "Explanation": "Sell boots for Rod of tahuti"
+            }
+        ]
     },
     {
         "Name": "Merlin",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Merlin.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/03/Merlin_Header_2560x917.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Nox",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nox.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Hybrid Support",
+                "Final-Items": [
+                    9634,
+                    14175,
+                    12665,
+                    13187,
+                    8599,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    12663,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Hybrid will be used for your aggressive guardians, specially when you want to be doing more in the early and mid game in terms of damage. Sell boots for spirit robe and make sure if anti heal is needed you get it over relic dagger or ethereal staff."
+            }
+        ]
     },
     {
         "Name": "Nu Wa",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/NuWa.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Olorun",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Olorun.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/06/Olorun_Header_2560x917_Shadow.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18191,
+                    18180,
+                    15579,
+                    9351,
+                    8564
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9847,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Hastened Ring"
+            }
+        ]
     },
     {
         "Name": "Persephone",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Persephone.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/08/Persephone_Header_2560x917_Shadow-1.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Poseidon",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Poseidon.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            },
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18191,
+                    18180,
+                    15579,
+                    9351,
+                    8564
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9847,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Hastened Ring"
+            }
+        ]
     },
     {
         "Name": "Ra",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Ra.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Raijin",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Raijin.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Scylla",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Scylla.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Sol",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Sol.jpg",
-        "Class": "Mage"
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Carry",
+                "Title": "Season 7 ADC(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18191,
+                    18180,
+                    15579,
+                    9351,
+                    8564
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15489,
+                    9847,
+                    7621,
+                    7621,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for Hastened Ring"
+            }
+        ]
     },
     {
         "Name": "The Morrigan",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/TheMorrigan.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/TheMorrigan.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Thoth",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Thoth.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Thoth.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Vulcan",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Vulcan.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Vulcan.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Zeus",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Zeus.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Zeus.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            }
+        ]
     },
     {
         "Name": "Zhong Kui",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/ZhongKui.jpg",
-        "Class": "Mage"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/ZhongKui-1.jpg",
+        "Class": "Mage",
+        "Builds": [
+            {
+                "Type": "Mid",
+                "Title": "Season 7 Mid(Mid Season Patch)",
+                "Final-Items": [
+                    9634,
+                    18180,
+                    12670,
+                    9128,
+                    15582,
+                    7600
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15482,
+                    9849,
+                    7621,
+                    7621,
+                    7622
+                ],
+                "Explanation": "Sell boots for obsidian shard if they are tanky(check magic def having 200+) otherwise go for chronos pendant to get more spam while pushing/fighting at fire giant. If they have healing get divine instead of Spear of desolation"
+            },
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9633,
+                    7534,
+                    15579,
+                    18180,
+                    12666,
+                    8599
+                ],
+                "Relics": [
+                    8879,
+                    7672
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for more damage if you are living(gem of iso, divine ruin, etc) or more defense if dying(spirit robe, winged blade, etc)"
+            }
+        ]
     },
     {
         "Name": "Achilles",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Achilles.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2018/02/Smite-Web-Achilles-Header-2560x917.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    12678,
+                    9836,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    7904,
+                    8550,
+                    12680,
+                    7935
+                ],
+                "Relics": [
+                    8879,
+                    8844
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Get brawlers beatstick if they have ANY healing over the crusher. Sell boots for mantle or titans bane"
+            }
+        ]
     },
     {
         "Name": "Amaterasu",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Amaterasu.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    12677,
+                    16544,
+                    14178,
+                    9836,
+                    14846
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Bellona",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Bellona.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Bellona.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    12677,
+                    16544,
+                    14178,
+                    9836,
+                    14846
+                ],
+                "Relics": [
+                    9040,
+                    11106
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Chaac",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Chaac.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Chaac.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    12678,
+                    9836,
+                    15619
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Cu Chulainn",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/CuChulainn.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/CuChulainn.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7572,
+                    12677,
+                    9836,
+                    12678,
+                    9361
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Erlang Shen",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/ErlangShen.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7572,
+                    12677,
+                    9836,
+                    12678,
+                    9361
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    12673,
+                    16544,
+                    12677,
+                    9836,
+                    19003
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    12671,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Selll boots for mantle or bloodforge. IF ITS HEAVY MAGICAL DAMAGE ON ENEMY GET ANCILE AND RUNIC SHIELD OVER BERSKER SHIELD AND VOID SHIELD."
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support",
+                "Final-Items": [
+                    9629,
+                    12665,
+                    13187,
+                    17355,
+                    7935,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    9624,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "health and multi to finish starter. Sell boots for anti heal or for emporer's armor to help push/defend."
+            }
+        ]
     },
     {
         "Name": "Guan Yu",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/GuanYu.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Hercules",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Hercules.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7572,
+                    12677,
+                    9836,
+                    12678,
+                    9361
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support (Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    12677,
+                    12665,
+                    9112,
+                    17355,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    9120
+                ],
+                "Starter": [
+                    15473,
+                    9624,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Defense "
+            }
+        ]
     },
     {
         "Name": "Horus",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Horus.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/05/Horus_Header_2560x917.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Support",
+                "Title": "Season 7 Support (Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    12677,
+                    12665,
+                    13187,
+                    17355,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    14536
+                ],
+                "Starter": [
+                    15473,
+                    9624,
+                    7621,
+                    7621,
+                    7621,
+                    9804
+                ],
+                "Explanation": "Sell boots for Defense "
+            }
+        ]
     },
     {
         "Name": "King Arthur",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/KingArthur.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2019/01/Arthur-Header-2560x917.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7572,
+                    12677,
+                    9836,
+                    12678,
+                    9361
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Mulan",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Mulan.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2020/02/Mulan_Header_2560x917.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    8550,
+                    17356,
+                    12680,
+                    7523
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for mantle of discord, magi's cloak, OR more damage like a shifters shield, bloodforge, brawlers beatstick. Make sure to get brawlers over crusher if the other team has any healing."
+            }
+        ]
     },
     {
         "Name": "Nike",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Nike.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7572,
+                    12677,
+                    9836,
+                    12678,
+                    9361
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    17356,
+                    9836,
+                    12680,
+                    12666
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for spirit robe or for Titan's bane"
+            }
+        ]
     },
     {
         "Name": "Odin",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Odin.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Osiris",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Osiris.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    9836,
+                    12678,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Sun Wukong",
         "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/SunWukong.jpg",
-        "Class": "Warrior"
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7539,
+                    12677,
+                    9836,
+                    12679,
+                    12680
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            },
+            {
+                "Type": "Jungle",
+                "Title": "Season 7 Jungle build",
+                "Final-Items": [
+                    9626,
+                    11111,
+                    8550,
+                    7904,
+                    8547,
+                    12680
+                ],
+                "Relics": [
+                    8844,
+                    8879
+                ],
+                "Starter": [
+                    15486,
+                    7827,
+                    18200,
+                    7621
+                ],
+                "Explanation": "Sell boots for movement speed potion and Titan's bane or bloodforge(if they have little physical defense tanks)"
+            }
+        ]
     },
     {
         "Name": "Tyr",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Tyr.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Tyr.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9626,
+                    7641,
+                    12677,
+                    12678,
+                    9836,
+                    15619
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     },
     {
         "Name": "Vamana",
-        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/08/Vamana.jpg",
-        "Class": "Warrior"
+        "Header": "https://web2.hirez.com/smite-media//wp-content/uploads/2017/07/Vamana.jpg",
+        "Class": "Warrior",
+        "Builds": [
+            {
+                "Type": "Solo",
+                "Title": "Season 7 Solo(Mid Season Patch)",
+                "Final-Items": [
+                    9627,
+                    7641,
+                    12677,
+                    15619,
+                    14846,
+                    12673
+                ],
+                "Relics": [
+                    9040,
+                    8844
+                ],
+                "Starter": [
+                    15479,
+                    14031,
+                    9804,
+                    9804,
+                    9804
+                ],
+                "Explanation": "Sell boots for mantle of discord"
+            }
+        ]
     }
 ]

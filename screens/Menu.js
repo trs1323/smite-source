@@ -1,27 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, FlatList, ScrollView } from 'react-native';
+import { YellowBox } from 'react-native';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
-import Gods from '../data/Gods.json';
+YellowBox.ignoreWarnings([
+    'VirtualizedLists should never be nested', // TODO: Remove when fixed
+]);
 
-const Hunter = Gods.filter(function (item) {
-    return item.Class == 'Hunter'
-});
+import Gods from '../data/AllGods.json';
 
-const Assassin = Gods.filter(function (item) {
-    return item.Class == 'Assassin'
-});
 
-const Guardian = Gods.filter(function (item) {
-    return item.Class == 'Guardian'
-});
-
-const Mage = Gods.filter(function (item) {
-    return item.Class == 'Mage'
-});
-
-const Warrior = Gods.filter(function (item) {
-    return item.Class == 'Warrior'
-});
 
 const Menu = props => {
     const [builds, showBuilds] = useState(false);
@@ -30,10 +19,109 @@ const Menu = props => {
     const [guardians, showGuardians] = useState(false);
     const [mages, showMages] = useState(false);
     const [warriors, showWarriors] = useState(false);
+
+    const [allHunters, setAllHunters] = useState();
+    const [allAssassins, setAllAssassins] = useState();
+    const [allGuardians, setAllGuardians] = useState();
+    const [allMages, setAllMages] = useState();
+    const [allWarriors, setAllWarriors] = useState();
+
+
+
+    useEffect(() => {
+        if (props.allGods === undefined) {
+            console.log('using backup')
+
+            setAllHunters(Gods.filter(function (item) {
+                return item.Roles == " Hunter"
+            }))
+
+            setAllAssassins(Gods.filter(function (item) {
+                return item.Roles == " Assassin"
+            }))
+
+            setAllGuardians(Gods.filter(function (item) {
+                return item.Roles == " Guardian"
+            }))
+
+            setAllMages(Gods.filter(function (item) {
+                return item.Roles == " Mage"
+            }))
+
+            setAllWarriors(Gods.filter(function (item) {
+                return item.Roles == " Warrior"
+            }))
+
+        } else {
+            console.log(' using props allgods')
+            setAllHunters(props.allGods.filter(function (item) {
+                return item.Roles == " Hunter"
+            }))
+
+            setAllAssassins(props.allGods.filter(function (item) {
+                return item.Roles == " Assassin"
+            }))
+
+            setAllGuardians(props.allGods.filter(function (item) {
+                return item.Roles == " Guardian"
+            }))
+
+            setAllMages(props.allGods.filter(function (item) {
+                return item.Roles == " Mage"
+            }))
+
+            setAllWarriors(props.allGods.filter(function (item) {
+                return item.Roles == " Warrior"
+            }))
+        }
+    }, [])
+
+
+
+    const godClicked = (name) => {
+        props.setGod(name);
+        props.showMenu(false);
+        props.showGodScreen(true)
+    };
+
+    const goHome = () => {
+        props.showMenu(false);
+        props.showGodScreen(false);
+        props.showBuildScreen(false);
+        props.showTierlist(false);
+        props.showGiveawayScreen(false);
+        props.showAboutScreen(false);
+    };
+
+    const changeScreen = linked => {
+        props.showGodScreen(false);
+        props.showBuildScreen(false);
+        props.showMenu(false);
+        props.showAboutScreen(false);
+        props.showGiveawayScreen(false);
+        props.showTierlist(false);
+        if (linked === 'About') {
+            props.showAboutScreen(true)
+        } else if (linked === 'Giveaway') {
+            props.showGiveawayScreen(true)
+        } else if (linked === 'Tierlist') {
+            props.showTierlist(true)
+        }
+    }
+
+    const changeArrow = (c) => {
+        if (c === false) {
+            return faChevronRight
+        } else {
+            return faChevronDown
+        }
+    }
+
+
     return (
         <ScrollView style={styles.menu}>
             <View style={styles.menutext}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={goHome}>
                     <Text style={styles.text}>HOME</Text>
                 </TouchableOpacity>
             </View>
@@ -44,106 +132,136 @@ const Menu = props => {
                 <View style={(builds === false) ? styles.classtextHidden : ''}>
                     <View >
                         <TouchableOpacity style={styles.classtext} onPress={() => showAssassins(!assassins)}>
-                            <Text style={styles.text}>></Text>
+                            <FontAwesomeIcon style={styles.text} icon={changeArrow(assassins)} />
                             <Text style={styles.text}>ASSASSINS</Text>
                         </TouchableOpacity>
-                        <View style={(assassins === false) ? styles.classtextHidden : ''}>
+                        <View style={(assassins === false) ? styles.classtextHidden : styles.classNames}>
                             <FlatList
-                                data={Assassin}
-                                renderItem={({ item }) => <Text style={styles.godText}>{item.Name}</Text>}
+                                data={allAssassins}
+                                keyExtractor={item => item.Name}
+                                renderItem={({ item }) =>
+                                    <View>
+                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                            <Text style={styles.godText}>{item.Name}</Text>
+                                        </TouchableOpacity>
+                                    </View>}
                             />
                         </View>
                     </View>
                     <View >
                         <TouchableOpacity style={styles.classtext} onPress={() => showHunters(!hunters)}>
-                            <Text style={styles.text}>></Text>
+                            <FontAwesomeIcon style={styles.text} icon={changeArrow(hunters)} />
                             <Text style={styles.text}>HUNTERS</Text>
                         </TouchableOpacity>
-                        <View style={(hunters === false) ? styles.classtextHidden : ''}>
+                        <View style={(hunters === false) ? styles.classtextHidden : styles.classNames}>
+
                             <FlatList
-                                data={Hunter}
-                                renderItem={({ item }) => <Text style={styles.godText}>{item.Name}</Text>}
+                                data={allHunters}
+                                keyExtractor={item => item.Name}
+                                renderItem={({ item }) =>
+                                    <View>
+                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                            <Text style={styles.godText}>{item.Name}</Text>
+                                        </TouchableOpacity>
+                                    </View>}
                             />
                         </View>
                     </View>
                     <View >
                         <TouchableOpacity style={styles.classtext} onPress={() => showGuardians(!guardians)}>
-                            <Text style={styles.text}>></Text>
+                            <FontAwesomeIcon style={styles.text} icon={changeArrow(guardians)} />
                             <Text style={styles.text}>GUARDIANS</Text>
                         </TouchableOpacity>
-                        <View style={(guardians === false) ? styles.classtextHidden : ''}>
+                        <View style={(guardians === false) ? styles.classtextHidden : styles.classNames}>
                             <FlatList
-                                data={Guardian}
-                                renderItem={({ item }) => <Text style={styles.godText}>{item.Name}</Text>}
+                                data={allGuardians}
+                                keyExtractor={item => item.Name}
+                                renderItem={({ item }) =>
+                                    <View>
+                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                            <Text style={styles.godText}>{item.Name}</Text>
+                                        </TouchableOpacity>
+                                    </View>}
                             />
                         </View>
                     </View>
                     <View >
                         <TouchableOpacity style={styles.classtext} onPress={() => showMages(!mages)}>
-                            <Text style={styles.text}>></Text>
+                            <FontAwesomeIcon style={styles.text} icon={changeArrow(mages)} />
                             <Text style={styles.text}>MAGES</Text>
                         </TouchableOpacity>
-                        <View style={(mages === false) ? styles.classtextHidden : ''}>
+                        <View style={(mages === false) ? styles.classtextHidden : styles.classNames}>
                             <FlatList
-                                data={Mage}
-                                renderItem={({ item }) => <Text style={styles.godText}>{item.Name}</Text>}
+                                data={allMages}
+                                keyExtractor={item => item.Name}
+                                renderItem={({ item }) =>
+                                    <View>
+                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                            <Text style={styles.godText}>{item.Name}</Text>
+                                        </TouchableOpacity>
+                                    </View>}
                             />
                         </View>
                     </View>
                     <View >
                         <TouchableOpacity style={styles.classtext} onPress={() => showWarriors(!warriors)}>
-                            <Text style={styles.text}>></Text>
+                            <FontAwesomeIcon style={styles.text} icon={changeArrow(warriors)} />
                             <Text style={styles.text}>WARRIORS</Text>
                         </TouchableOpacity>
-                        <View style={(warriors === false) ? styles.classtextHidden : ''}>
+                        <View style={(warriors === false) ? styles.classtextHidden : styles.classNames}>
                             <FlatList
-                                data={Warrior}
-                                renderItem={({ item }) => <Text style={styles.godText}>{item.Name}</Text>}
+                                data={allWarriors}
+                                keyExtractor={item => item.Name}
+                                renderItem={({ item }) =>
+                                    <View>
+                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                            <Text style={styles.godText}>{item.Name}</Text>
+                                        </TouchableOpacity>
+                                    </View>}
                             />
                         </View>
                     </View>
                 </View>
             </View>
             <View style={styles.menutext}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => changeScreen('Tierlist')}>
                     <Text style={styles.text}>TIER LISTS</Text>
                 </TouchableOpacity>
             </View>
             <View style={styles.menutext}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => changeScreen('About')}>
                     <Text style={styles.text}>ABOUT</Text>
                 </TouchableOpacity>
             </View>
             <View style={styles.menutext}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => changeScreen('Giveaway')}>
                     <Text style={styles.text}>GIVEAWAY</Text>
                 </TouchableOpacity>
             </View>
         </ScrollView>
     );
-}
+};
+
+
 
 const styles = StyleSheet.create({
     menu: {
         width: '60%',
-        height: '100%',
         backgroundColor: '#252b45',
-        paddingHorizontal: 10,
+        paddingHorizontal: 20,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
-            height: 5,
+            height: 7,
         },
         shadowOpacity: 0.27,
         shadowRadius: 4.65,
-        elevation: 6,
-        overflow: 'scroll'
-
+        elevation: 8,
+        overflow: 'scroll',
+        paddingTop: 30
     },
     menutext: {
-        marginVertical: 20,
-
-
+        marginVertical: 25,
     },
     classtextHidden: {
         display: 'none'
@@ -156,13 +274,15 @@ const styles = StyleSheet.create({
 
     },
     text: {
-        color: 'white'
+        color: 'white',
+        fontWeight: '700'
     },
     godText: {
-        color: 'white',
+        color: '#d1d1d1',
         marginVertical: 10,
-        marginLeft: 25
-    }
+        marginLeft: 25,
+    },
+
 });
 
 export default Menu;

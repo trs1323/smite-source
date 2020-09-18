@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smite_source",
+    "name": "Smite Source",
     "slug": "smite_source",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#252b45"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,10 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.Weak3n.SmiteSource"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "Smite Source for all your build needs. Use builds by the pros.",
+    "android": {
+      "package": "com.Weak3n.SmiteSource",
+      "versionCode": 1,
+      "permissions": []
     }
   }
 }
