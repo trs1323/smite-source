@@ -8,8 +8,6 @@ YellowBox.ignoreWarnings([
     'VirtualizedLists should never be nested', // TODO: Remove when fixed
 ]);
 
-import Gods from '../data/AllGods.json';
-
 
 
 const Menu = props => {
@@ -29,59 +27,44 @@ const Menu = props => {
 
 
     useEffect(() => {
-        if (props.allGods === undefined) {
-            console.log('using backup')
+        setAllHunters(props.allGods.filter(function (item) {
+            return item.Roles == "Hunter"
+        }))
 
-            setAllHunters(Gods.filter(function (item) {
-                return item.Roles == " Hunter"
-            }))
+        setAllAssassins(props.allGods.filter(function (item) {
+            return item.Roles == "Assassin"
+        }))
 
-            setAllAssassins(Gods.filter(function (item) {
-                return item.Roles == " Assassin"
-            }))
+        setAllGuardians(props.allGods.filter(function (item) {
+            return item.Roles == "Guardian"
+        }))
 
-            setAllGuardians(Gods.filter(function (item) {
-                return item.Roles == " Guardian"
-            }))
+        setAllMages(props.allGods.filter(function (item) {
+            return item.Roles == "Mage"
+        }))
 
-            setAllMages(Gods.filter(function (item) {
-                return item.Roles == " Mage"
-            }))
-
-            setAllWarriors(Gods.filter(function (item) {
-                return item.Roles == " Warrior"
-            }))
-
-        } else {
-            console.log(' using props allgods')
-            setAllHunters(props.allGods.filter(function (item) {
-                return item.Roles == " Hunter"
-            }))
-
-            setAllAssassins(props.allGods.filter(function (item) {
-                return item.Roles == " Assassin"
-            }))
-
-            setAllGuardians(props.allGods.filter(function (item) {
-                return item.Roles == " Guardian"
-            }))
-
-            setAllMages(props.allGods.filter(function (item) {
-                return item.Roles == " Mage"
-            }))
-
-            setAllWarriors(props.allGods.filter(function (item) {
-                return item.Roles == " Warrior"
-            }))
-        }
+        setAllWarriors(props.allGods.filter(function (item) {
+            return item.Roles == "Warrior"
+        }))
     }, [])
 
-
+    const doneFetching = () => {
+        props.setLoading(false)
+        props.showGodScreen(true)
+    }
 
     const godClicked = (name) => {
         props.setGod(name);
         props.showMenu(false);
-        props.showGodScreen(true)
+        props.setLoading(true)
+        fetch(`https://us-central1-smite-source.cloudfunctions.net/api/builds/${name}`)
+            .then((response) =>
+                response.json()
+            )
+            .then((json) => props.setGodSelected(json.data))
+            .catch((error) => console.error(error))
+            .finally(() => doneFetching())
+
     };
 
     const goHome = () => {
@@ -92,6 +75,11 @@ const Menu = props => {
         props.showGiveawayScreen(false);
         props.showAboutScreen(false);
     };
+
+    const doneFetchingTierlist = () => {
+        props.setLoading(false)
+        props.showTierlist(true)
+    }
 
     const changeScreen = linked => {
         props.showGodScreen(false);
@@ -105,7 +93,15 @@ const Menu = props => {
         } else if (linked === 'Giveaway') {
             props.showGiveawayScreen(true)
         } else if (linked === 'Tierlist') {
-            props.showTierlist(true)
+            props.setLoading(true);
+            fetch(`https://us-central1-smite-source.cloudfunctions.net/api/tierlists`)
+                .then((response) =>
+                    response.json()
+                )
+                .then((json) => props.setCurrentTierlist(json.data))
+                .catch((error) => console.error(error))
+                .finally(() => doneFetchingTierlist())
+
         }
     }
 
@@ -141,7 +137,7 @@ const Menu = props => {
                                 keyExtractor={item => item.Name}
                                 renderItem={({ item }) =>
                                     <View>
-                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                        <TouchableOpacity onPress={() => godClicked(item.id)}>
                                             <Text style={styles.godText}>{item.Name}</Text>
                                         </TouchableOpacity>
                                     </View>}
@@ -160,7 +156,7 @@ const Menu = props => {
                                 keyExtractor={item => item.Name}
                                 renderItem={({ item }) =>
                                     <View>
-                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                        <TouchableOpacity onPress={() => godClicked(item.id)}>
                                             <Text style={styles.godText}>{item.Name}</Text>
                                         </TouchableOpacity>
                                     </View>}
@@ -178,7 +174,7 @@ const Menu = props => {
                                 keyExtractor={item => item.Name}
                                 renderItem={({ item }) =>
                                     <View>
-                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                        <TouchableOpacity onPress={() => godClicked(item.id)}>
                                             <Text style={styles.godText}>{item.Name}</Text>
                                         </TouchableOpacity>
                                     </View>}
@@ -196,7 +192,7 @@ const Menu = props => {
                                 keyExtractor={item => item.Name}
                                 renderItem={({ item }) =>
                                     <View>
-                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                        <TouchableOpacity onPress={() => godClicked(item.id)}>
                                             <Text style={styles.godText}>{item.Name}</Text>
                                         </TouchableOpacity>
                                     </View>}
@@ -214,7 +210,7 @@ const Menu = props => {
                                 keyExtractor={item => item.Name}
                                 renderItem={({ item }) =>
                                     <View>
-                                        <TouchableOpacity onPress={() => godClicked(item.Name)}>
+                                        <TouchableOpacity onPress={() => godClicked(item.id)}>
                                             <Text style={styles.godText}>{item.Name}</Text>
                                         </TouchableOpacity>
                                     </View>}
@@ -269,17 +265,18 @@ const styles = StyleSheet.create({
     classtext: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginVertical: 15,
+        paddingVertical: 15,
         paddingLeft: 10,
 
     },
     text: {
         color: 'white',
-        fontWeight: '700'
+        fontWeight: '700',
+        paddingVertical: 5
     },
     godText: {
         color: '#d1d1d1',
-        marginVertical: 10,
+        paddingVertical: 10,
         marginLeft: 25,
     },
 

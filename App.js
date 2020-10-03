@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Modal, BackHandler } from 'react-native';
-import EventEmitter from "react-native-md5";
-import md5 from "react-native-md5";
+import { ActivityIndicator, StyleSheet, Text, View, Modal, BackHandler } from 'react-native';
 
 import Header from './components/Header';
 import Menu from './screens/Menu';
@@ -10,77 +8,51 @@ import Build from './screens/Build';
 import Home from './screens/Home';
 import TierLists from './screens/TierLists';
 
-import Items from './data/Items.json';
-import AllGods from './data/AllGods.json';
 
 export default function App() {
+  //screens
   const [menu, showMenu] = useState(false);
   const [godScreen, showGodScreen] = useState(false);
   const [buildScreen, showBuildScreen] = useState(false);
   const [tierlistScreen, showTierlist] = useState(false);
   const [aboutScreen, showAboutScreen] = useState(false);
   const [giveawayScreen, showGiveawayScreen] = useState(false);
+
+  //info
   const [god, setGod] = useState();
   const [build, setBuild] = useState();
-  const [sessionId, setSessionId] = useState();
   const [allGods, setAllGods] = useState();
-  const [allItems, setAllItems] = useState();
-  const [isLoading, setLoading] = useState();
+  const [currentGod, setCurrentGod] = useState();
+  const [currentGodImg, setCurrentGodImg] = useState();
+  const [GodSelected, setGodSelected] = useState();
+  const [currentBuild, setCurrentBuild] = useState();
+  const [currentTierlist, setCurrentTierlist] = useState();
+  const [currentUpdate, setCurrentUpdate] = useState();
+
+  const [isLoading, setLoading] = useState(true);
+
+
+
+
+
 
   useEffect(() => {
-    let config = {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Vary': 'Origin'
-      }
-    }
-
-    let dt = new Date();
-
-    let timestamp = `${dt.getFullYear().toString().padStart(4, '0')}${(dt.getMonth() + 1).toString().padStart(2, '0')}${dt.getUTCDate().toString().padStart(2, '0')}${dt.getUTCHours().toString().padStart(2, '0')}${dt.getUTCMinutes().toString().padStart(2, '0')}${dt.getUTCSeconds().toString().padStart(2, '0')}`;
-
-    let signature = md5.hex_md5(`3359createsessionA73937BDE832463B8251CFEE8FB45862${timestamp}`);
-
-    fetch(`http://api.smitegame.com/smiteapi.svc/createsessionjson/3359/${signature}/${timestamp}`)
+    fetch('https://us-central1-smite-source.cloudfunctions.net/api/gods')
       .then((response) =>
         response.json()
       )
-      .then((json) => setSessionId(json.session_id))
+      .then((json) => setAllGods(json.data.gods))
       .catch((error) => console.error(error))
-    console.log(sessionId)
-    if (sessionId !== undefined) {
-      console.log('Grabbing Gods')
-      let dt = new Date();
+    fetch('https://cms.smitegame.com/wp-json/smite-api/get-posts/1')
+      .then((response) =>
+        response.json()
+      )
+      .then((json) => setCurrentUpdate(json))
+      .catch((error) => console.error(error))
+      .finally(() => setLoading(false))
 
-      let godTimestamp = `${dt.getFullYear().toString().padStart(4, '0')}${(dt.getMonth() + 1).toString().padStart(2, '0')}${dt.getUTCDate().toString().padStart(2, '0')}${dt.getUTCHours().toString().padStart(2, '0')}${dt.getUTCMinutes().toString().padStart(2, '0')}${dt.getUTCSeconds().toString().padStart(2, '0')}`;
-      let godSignature = md5.hex_md5(`3359getgodsA73937BDE832463B8251CFEE8FB45862${timestamp}`);
 
-      fetch(`http://api.smitegame.com/smiteapi.svc/getgodsjson/3359/${godSignature}/${sessionId}/${godTimestamp}/1`)
-        .then((response) => response.json())
-        .then((json) => setAllGods(json))
-        .catch((error) => setAllGods(AllGods))
-    } else if (sessionId == undefined) {
-      console.log('Using Backup')
-      setAllGods(AllGods)
-    }
-
-    if (allGods !== undefined) {
-      console.log('Grabbing Gods')
-      let dt = new Date();
-
-      let itemTimestamp = `${dt.getFullYear().toString().padStart(4, '0')}${(dt.getMonth() + 1).toString().padStart(2, '0')}${dt.getUTCDate().toString().padStart(2, '0')}${dt.getUTCHours().toString().padStart(2, '0')}${dt.getUTCMinutes().toString().padStart(2, '0')}${dt.getUTCSeconds().toString().padStart(2, '0')}`;
-      let itemSignature = md5.hex_md5(`3359getitemsA73937BDE832463B8251CFEE8FB45862${timestamp}`);
-
-      fetch(`http://api.smitegame.com/smiteapi.svc/getitemsjson/3359/${itemSignature}/${sessionId}/${itemTimestamp}/1`)
-        .then((response) => response.json())
-        .then((json) => setAllItems(json))
-        .catch((error) => setAllItems(Items))
-    } else if (sessionId == undefined) {
-      console.log('Using Backup')
-      setAllItems(Items)
-    }
-  }, [])
-
+  }, []);
 
 
   BackHandler.addEventListener('hardwareBackPress', function () {
@@ -104,23 +76,27 @@ export default function App() {
 
 
   let content;
-  if (godScreen === true) {
-    content = <God god={god} setBuild={setBuild} showGodScreen={showGodScreen} showBuildScreen={showBuildScreen} allGods={allGods} allItems={allItems} />
+  if (isLoading === true) {
+    content = <ActivityIndicator />
+  } else if (godScreen === true) {
+    content = <God god={god} setBuild={setBuild} showGodScreen={showGodScreen} showBuildScreen={showBuildScreen} allGods={allGods} setCurrentGod={setCurrentGod} setCurrentGodImg={setCurrentGodImg} setLoading={setLoading} GodSelected={GodSelected} setCurrentBuild={setCurrentBuild} />
   } else if (buildScreen === true) {
-    content = <Build build={build} god={god} allGods={allGods} allItems={allItems} />
+    content = <Build build={build} god={god} allGods={allGods} currentGod={currentGod} currentGodImg={currentGodImg} setLoading={setLoading} currentBuild={currentBuild} />
   } else if (aboutScreen === true) {
     content = <View><Text style={styles.yellowText}>Coming Soon</Text></View>
   } else if (giveawayScreen === true) {
     content = <View><Text style={styles.yellowText}>Coming Soon</Text></View>
   } else if (tierlistScreen === true) {
-    content = <TierLists />
+    content = <TierLists setLoading={setLoading} currentTierlist={currentTierlist} />
   } else {
-    content = <Home />
+    content = <Home currentUpdate={currentUpdate} />
   }
 
   return (
     <View style={styles.container}>
+
       <Header showMenu={showMenu} menu={menu} visible={menu} />
+
       <View>
         <Modal
           animationType="slide"
@@ -131,7 +107,7 @@ export default function App() {
           }}
         >
 
-          <Menu setGod={setGod} showMenu={showMenu} showGodScreen={showGodScreen} showBuildScreen={showBuildScreen} showTierlist={showTierlist} showAboutScreen={showAboutScreen} showGiveawayScreen={showGiveawayScreen} allGods={allGods} allItems={allItems} />
+          <Menu setGod={setGod} showMenu={showMenu} showGodScreen={showGodScreen} showBuildScreen={showBuildScreen} showTierlist={showTierlist} showAboutScreen={showAboutScreen} showGiveawayScreen={showGiveawayScreen} allGods={allGods} setLoading={setLoading} setGodSelected={setGodSelected} setCurrentTierlist={setCurrentTierlist} />
         </Modal>
       </View>
       {content}

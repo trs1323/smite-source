@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, FlatList, ScrollView, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, View, Image, FlatList, ScrollView, TouchableOpacity, Alert, TouchableWithoutFeedback } from 'react-native';
 import { YellowBox } from 'react-native'
 
 YellowBox.ignoreWarnings([
@@ -9,34 +9,82 @@ YellowBox.ignoreWarnings([
 import Gods from '../data/Gods.json';
 
 const God = props => {
+    const [count, setCount] = useState(0)
 
-    const GodSelected = Gods.filter(function (item) {
-        return item.Name == props.god
-    });
+    const easterEgg = () => {
+        setCount(count + 1);
+        if (count >= 9) {
+            Alert.alert(
+                'Easter Egg!',
+                'Hi, this app is coded by me, Tanner Shilson. I would like to say Thank you to my wife, Lupe. She has always pushed me and believed in me. I love you Lovebug! I love my boys, Anthony, Xavier, and Zander. Thanks to my family and friends for my being supportive. If you found this by accident, congrats i guess, add me on Smite.                                                                -Tanner "TannerSucks" Shilson',
+                [
+                    { text: 'Cool' }
+                ],
+                { cancelable: false }
+            );
+        }
+    }
+
+    //grabs god info from all gods using id prop
+    const godInfo = props.allGods.filter(item => {
+        return item.id === props.god
+    })
+
+
+    let godImg;
+    //matches name for pic
+    if (godInfo !== undefined) {
+        godImg = Gods.filter(item => {
+            return godInfo[0].Name === item.Name
+        })
+    }
+
+
+    const doneFetching = () => {
+        props.setLoading(false)
+        props.showBuildScreen(true);
+    }
+
 
     const setBuild = (title) => {
-
+        props.setCurrentGod(godInfo);
+        props.setCurrentGodImg(godImg);
         props.setBuild(title);
         props.showGodScreen(false);
-        props.showBuildScreen(true);
-
+        props.setLoading(true)
+        fetch(`https://us-central1-smite-source.cloudfunctions.net/api/build/${title}`)
+            .then((response) =>
+                response.json()
+            )
+            .then((json) => props.setCurrentBuild(json.data))
+            .catch((error) => console.error(error))
+            .finally(() => doneFetching())
     }
 
     const setImg = (type) => {
-        if (type == "Jungle") {
+        if (type == "Assassin") {
             return require(`../img/Jungle.png`)
-        } else if (type == "Solo") {
+        } else if (type == "Warrior") {
             return require(`../img/Solo.png`)
-        } else if (type == "Carry") {
+        } else if (type == "Hunter") {
             return require(`../img/Carry.png`)
-        } else if (type == "Mid") {
+        } else if (type == "Mage") {
             return require(`../img/Mid.png`)
-        } else if (type == "Support") {
+        } else if (type == "Guardian") {
             return require(`../img/Support.png`)
         } else {
             return require(`../img/Jungle.png`)
         }
 
+    }
+
+    const checkImg = () => {
+        if (godImg.length > 0) {
+            return godImg[0].Header;
+
+        } else {
+            return godInfo[0].godIcon_URL
+        }
     }
 
     return (
@@ -45,11 +93,11 @@ const God = props => {
 
                 <View>
                     <View style={styles.imgContainer}>
-                        <Image style={styles.img} source={{ uri: `${GodSelected[0].Header}` }} />
+                        <Image style={styles.img} source={{ uri: `${checkImg()}` }} />
                     </View>
 
                     <View style={styles.godTitle}>
-                        <Text style={styles.text}>{GodSelected[0].Name}</Text>
+                        <Text style={styles.text}>{godInfo[0].Name}</Text>
                     </View>
 
 
@@ -61,14 +109,14 @@ const God = props => {
                 </View>
                 <View>
                     <FlatList
-                        data={GodSelected[0].Builds}
-                        keyExtractor={item => item.Title}
+                        data={props.GodSelected}
+                        keyExtractor={item => item.id}
                         renderItem={({ item }) =>
                             <View style={styles.buildContainer}>
-                                <TouchableOpacity style={styles.build} onPress={() => setBuild(item.Title)}>
-                                    <Image style={styles.roleImg} source={setImg(item.Type)} />
-                                    <Text style={styles.Yellowtext}>{item.Type}</Text>
-                                    <Text style={styles.smalltext}>{item.Title}</Text>
+                                <TouchableOpacity style={styles.build} onPress={() => setBuild(item.id)}>
+                                    <Image style={styles.roleImg} source={setImg(godInfo[0].Roles)} />
+                                    <Text style={styles.Yellowtext}>{item.title}</Text>
+                                    <Text style={styles.smalltext}>{item.subtitle}</Text>
                                 </TouchableOpacity>
                             </View>}
                     />
@@ -80,7 +128,9 @@ const God = props => {
                     alignItems: 'center',
                     marginTop: 'auto'
                 }}>
-                    <Text style={{ color: 'white' }}>© 2019 Smite Source. All rights reserved.</Text>
+                    <TouchableWithoutFeedback onPress={() => easterEgg()}>
+                        <Text style={{ color: 'white' }}>© 2019 Smite Source. All rights reserved.</Text>
+                    </TouchableWithoutFeedback>
                 </View>
             </View>
         </ScrollView>
@@ -143,8 +193,8 @@ const styles = StyleSheet.create({
         backgroundColor: "#2a335e",
         justifyContent: 'center',
         alignItems: 'center',
-        width: 275,
-        height: 275,
+        width: 300,
+        height: 300,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -152,14 +202,16 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.49,
         shadowRadius: 8.30,
-        elevation: 13
+        elevation: 13,
+        padding: 15
 
     },
     Yellowtext: {
         color: '#fdcb6e',
-        fontSize: 35,
+        fontSize: 25,
         fontWeight: '700',
-        marginBottom: 10
+        marginBottom: 10,
+        textAlign: 'center'
     },
     smalltext: {
         color: "white",
@@ -169,6 +221,7 @@ const styles = StyleSheet.create({
     },
     roleImg: {
 
+        marginVertical: 10
     }
 });
 

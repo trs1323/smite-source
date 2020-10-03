@@ -6,106 +6,64 @@ YellowBox.ignoreWarnings([
     'VirtualizedLists should never be nested', // TODO: Remove when fixed
 ]);
 
-import Gods from '../data/Gods.json';
-import Items from '../data/Items.json';
+
 
 const Build = props => {
 
-    const GodSelected = Gods.filter(function (item) {
-        return item.Name == props.god;
-    });
 
-    const AllBuilds = GodSelected[0].Builds;
+    const checkImg = () => {
+        if (props.currentGodImg.length > 0) {
+            return props.currentGodImg[0].Header;
 
-
-
-    const BuildSelected = AllBuilds.filter(item => {
-        return item.Title === props.build;
-    })
-
-    const finalItem0 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][0]
-    });
-    const finalItem1 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][1]
-    });
-    const finalItem2 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][2]
-    });
-    const finalItem3 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][3]
-    });
-    const finalItem4 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][4]
-    });
-    const finalItem5 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0]["Final-Items"][5]
-    });
-
-    const Relic0 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0].Relics[0]
-    });
-
-    const Relic1 = props.allItems.filter(item => {
-        return item.ItemId === BuildSelected[0].Relics[1]
-    });
-
-    let starterItems = [];
-
-    for (let i = 0; i < BuildSelected[0].Starter.length; i++) {
-        starterItems.push(props.allItems.filter(item => {
-            return item.ItemId === BuildSelected[0].Starter[i]
-        }))
-    };
-
-
-
-
+        } else {
+            return props.currentGod[0].godIcon_URL
+        }
+    }
 
     return (
         <ScrollView>
             <View>
 
                 <View style={styles.imgContainer}>
-                    <Image style={styles.img} source={{ uri: `${GodSelected[0].Header}` }} />
+                    <Image style={styles.img} source={{ uri: `${checkImg()}` }} />
                 </View>
 
                 <View style={styles.godTitle}>
-                    <Text style={styles.godName}>{GodSelected[0].Name}</Text>
-                    <Text style={styles.yellowText}>{BuildSelected[0].Type}</Text>
-                    <Text style={styles.whiteText}>{props.build}</Text>
+                    <Text style={styles.godName}>{props.currentGod[0].Name}</Text>
+                    <Text style={styles.yellowText}>{props.currentBuild.title}</Text>
+                    <Text style={styles.whiteText}>{props.currentBuild.subtitle}</Text>
                 </View>
 
                 <View style={styles.border}>
                     <Text style={styles.yellowText}>Final Items:</Text>
                     <View style={styles.itemRow}>
                         <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem0[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem0[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[0].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[0].DeviceName}</Text>
                         </View>
                         <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem1[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem1[0].DeviceName}</Text>
-                        </View>
-                    </View>
-                    <View style={styles.itemRow}>
-                        <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem2[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem2[0].DeviceName}</Text>
-                        </View>
-                        <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem3[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem3[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[1].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[1].DeviceName}</Text>
                         </View>
                     </View>
                     <View style={styles.itemRow}>
                         <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem4[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem4[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[2].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[2].DeviceName}</Text>
                         </View>
                         <View>
-                            <Image style={styles.itemImg} source={{ uri: `${finalItem5[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{finalItem5[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[3].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[3].DeviceName}</Text>
+                        </View>
+                    </View>
+                    <View style={styles.itemRow}>
+                        <View>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[4].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[4].DeviceName}</Text>
+                        </View>
+                        <View>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.final[5].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.final[5].DeviceName}</Text>
                         </View>
                     </View>
                 </View>
@@ -115,13 +73,13 @@ const Build = props => {
                     <View style={styles.itemRow}>
                         <View>
                             <Text style={styles.relicOrder}>Starter Relic</Text>
-                            <Image style={styles.itemImg} source={{ uri: `${Relic0[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{Relic0[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.relics[0].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.relics[0].DeviceName}</Text>
                         </View>
                         <View>
                             <Text style={styles.relicOrder}>Second Relic</Text>
-                            <Image style={styles.itemImg} source={{ uri: `${Relic1[0].itemIcon_URL}` }} />
-                            <Text style={styles.itemName}>{Relic1[0].DeviceName}</Text>
+                            <Image style={styles.itemImg} source={{ uri: `${props.currentBuild.relics[1].itemIcon_URL}` }} />
+                            <Text style={styles.itemName}>{props.currentBuild.relics[1].DeviceName}</Text>
                         </View>
                     </View>
                 </View>
@@ -131,21 +89,21 @@ const Build = props => {
                     <View style={styles.starterItems}>
                         <FlatList
 
-                            data={starterItems}
-                            keyExtractor={(item, index) => item[0].ItemId + [index]}
+                            data={props.currentBuild.starter}
+                            keyExtractor={(item, index) => item.ItemId + [index]}
                             numColumns={2}
                             renderItem={({ item }) =>
                                 <View style={styles.starterItem}>
 
-                                    <Image style={styles.itemImg} source={{ uri: `${item[0].itemIcon_URL}` }} />
-                                    <Text style={styles.itemName}>{item[0].DeviceName}</Text>
+                                    <Image style={styles.itemImg} source={{ uri: `${item.itemIcon_URL}` }} />
+                                    <Text style={styles.itemName}>{item.DeviceName}</Text>
                                 </View>}
                         />
                     </View>
                 </View>
                 <View style={styles.explanation}>
                     <Text style={styles.yellowText}>Explanation:</Text>
-                    <Text style={styles.whiteText}>{BuildSelected[0].Explanation}</Text>
+                    <Text style={styles.whiteText}>{props.currentBuild.explanation}</Text>
                 </View>
             </View>
             <View style={{

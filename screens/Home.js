@@ -6,6 +6,10 @@ import { faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Home = props => {
 
+    const listUpdates = props.currentUpdate.filter(item => {
+        return item.real_categories.includes('Update')
+    })
+
     const openLink = url => {
         Linking.openURL(url);
 
@@ -13,9 +17,10 @@ const Home = props => {
 
     return (
         <View style={styles.home}>
-            <Image style={styles.img} source={{ uri: "https://web2.hirez.com/smite-media//wp-content/uploads/2020/09/SMITE-PatchBadge-7pt10-LOKI-NOTES-BlogPreviewHeader-2560x695-2000x695.jpg" }} />
-            <Text style={styles.whiteText}>The Trickster God | 7.10 Update Notes</Text>
-            <TouchableOpacity style={styles.btn} onPress={() => openLink('https://www.smitegame.com/news/the-trickster-god-7-10-update-notes')}>
+
+            <Image style={styles.img} source={{ uri: `${listUpdates[0].large_image}` }} />
+            <Text style={styles.whiteText}>{listUpdates[0].title}</Text>
+            <TouchableOpacity style={styles.btn} onPress={() => openLink(`https://www.smitegame.com/news/${listUpdates[0].slug}`)}>
                 <Text style={styles.whiteText} >Read More</Text>
             </TouchableOpacity>
             <View style={styles.social}>

@@ -6,8 +6,11 @@ import * as Linking from 'expo-linking';
 
 const TierLists = props => {
 
+
+
+
     const openLink = () => {
-        Linking.openURL('https://smitesource.com/tierlists/6838d5cf-8cee-42c2-ae2d-e441bf281f8b');
+        Linking.openURL(`https://smitesource.com/tierlists/${props.currentTierlist[0].id}`);
 
     };
 
@@ -21,8 +24,8 @@ const TierLists = props => {
             <View >
                 <TouchableOpacity style={styles.tierlist} onPress={openLink}>
                     <FontAwesomeIcon icon={faClipboardList} size={40} style={{ color: 'white', marginBottom: 10 }} />
-                    <Text style={styles.yellowText}>Updated Tier List</Text>
-                    <Text style={{ color: 'white', textAlign: 'center' }}>September 1, 2020</Text>
+                    <Text style={styles.yellowText}>{props.currentTierlist[0].title}</Text>
+                    <Text style={{ color: 'white', textAlign: 'center' }}>{props.currentTierlist[0].dateCreated}</Text>
                 </TouchableOpacity>
             </View>
 
